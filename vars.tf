@@ -1,1 +1,1 @@
-variable "CIDR_VPC" {}
+variable  "CIDR_VPC" {}
