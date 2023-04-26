@@ -1,6 +1,6 @@
 module "vpc" {
   source         = "./vendor/modules/vpc"
-  CIDR_VPC       = "var.CIDR_VPC"
+  VPC_CIDR       = "var.VPC_CIDR"
   ENV             = var.ENV
 }
 
