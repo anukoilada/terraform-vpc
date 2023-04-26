@@ -1,5 +1,5 @@
 module "vpc" {
-  source        = "./vendor/modules/vpc"
+  source         = "./vendor/modules/vpc"
   CIDR_VPC       = "var.CIDR_VPC"
 }
 
